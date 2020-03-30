@@ -1,4 +1,5 @@
-# vuextaskmanager
+# Vuex Task Manager
+A simple task manager developed using vuex
 
 ## Project setup
 ```
