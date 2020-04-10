@@ -1,18 +1,24 @@
 <template>
     <div id="app">
         <div class="container">
+            <AddToDos />
+            <FilterTodos />
             <ToDos />
         </div>
     </div>
 </template>
 
 <script>
-    import ToDos from './components/ToDos.vue'
+    import ToDos from './components/ToDos.vue';
+    import AddToDos from './components/AddTodo.vue';
+    import FilterTodos from './components/FilterTodos.vue'
 
     export default {
         name: 'App',
         components: {
-            ToDos
+            ToDos,
+            AddToDos,
+            FilterTodos
         }
     }
 
